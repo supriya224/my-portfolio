@@ -10,13 +10,13 @@ import seo from '../Assets/imgs/web.png'
 import ServiceCard from './ServiceCard'
 const serviceArry = [
     {
-        image: web,
+        image: api,
         title: 'WebSite Developement',
         paragraph:
             'Reactwith typescript,Redux,React-Hooks,Formik,MaterialUi,Styled-components',
     },
     {
-        image: api,
+        image: web,
         title: 'SEO',
         paragraph:
             'Enhancing online visibility through strategic optimization for search engines, driving organic traffic and improving website rankings.',

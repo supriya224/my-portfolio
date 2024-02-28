@@ -5,7 +5,7 @@ const ServiceCard = ({ image, title, paragraph }) => {
     return (
         <ServiceCardStyle>
             <div className="container">
-                <img src={image} alt="" width="30%" />
+                <img src={image} alt="" width="30%" loading='lazy' />
                 <h4>{title}</h4>
                 <p>{paragraph}</p>
             </div>

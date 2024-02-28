@@ -1,16 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ResumeItem = ({ year, title, subTitle, text }) => {
+const ResumeItem = ({title, subTitle, text }) => {
     return (
         <ResumeItemStyled>
             <div className="left-content">
-                <p>{year}</p>
+       
                 {/* <p>Hellos</p> */}
             </div>
             <div className="right-content">
                 <h5>{title}</h5>
-                <h6>{subTitle}</h6>
+                <h6> Tech Used:  {subTitle}</h6>
                 <div>
                     {Array.isArray(text) ? (
                         <>

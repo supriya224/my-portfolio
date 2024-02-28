@@ -11,7 +11,7 @@ const Menu = ({ menuItems }) => {
                     <div className="grid-item" key={menuItem.id}>
                         <div className="portfolio-content">
                             <div className="portfolio-image">
-                                <img src={menuItem.image} alt="" />
+                                <img src={menuItem.image} alt="" loading='lazy' />
                                 <ul>
                                     <li>
                                         <a href={menuItem.github}>

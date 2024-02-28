@@ -23,7 +23,7 @@ const PortfolioPage = ({ setTitle }) => {
     }
     return (
         <MainLayout>
-            <Title title="PortFolio" span="PortFolio" />
+            <Title title="PortFolio" span="PortFolio"  />
             <InnerLayout>
                 <Buttons filter={filter} buttons={buttons} />
                 <Menu menuItems={menuItems} />

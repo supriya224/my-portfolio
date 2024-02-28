@@ -6,7 +6,7 @@ const ImageSection = () => {
     return (
         <ImageSectionStyled>
             <div className="left_content">
-                <img src="./assets/img12.png" alt="" />
+                <img src="./assets/img12.png" alt="" loading='lazy' />
                 {/* <img src="./assets/opentoWork.png" alt="resume Img" /> */}
             </div>
             <div className="right_content">
@@ -24,18 +24,15 @@ const ImageSection = () => {
                 <div className="about-info">
                     <div className="info-title">
                         <p>Full Name</p>
-                        <p>Age</p>
                         <p>Nationality</p>
                         <p>Languages</p>
                         <p>Location</p>
+                        <p>Qualification</p>
                       
                     </div>
                     <div className="info">
                         <p>
-                            <span>:</span>Narendra Kumar Maurya
-                        </p>
-                        <p>
-                            <span>:</span>23
+                            <span>:</span>Supriys Maurya
                         </p>
                         <p>
                             <span>:</span>Indian
@@ -44,9 +41,11 @@ const ImageSection = () => {
                             <span>:</span>English , Hindi
                         </p>
                         <p>
-                            <span>:</span>Bummanhali,Banglore,KA
+                            <span>:</span>Banglore,KA
                         </p>
-                       
+                        <p>
+                            <span>:</span>B.Tech( IT 2023 )
+                        </p>
                     </div>
                 </div>
                 <PrimaryButton

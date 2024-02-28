@@ -9,7 +9,7 @@ const Navigation = () => {
     return (
         <NavigationStyled>
             <div className="avatar">
-                <img src={avatar} alt="" />
+                <img src={avatar} alt="" loading='lazy' />
                 <div className="swing-section">
                     <SwingItem
                         icons={<GitHubIcon />}

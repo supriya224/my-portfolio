@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {InnerLayout } from '../Styled/Layout'
+import { InnerLayout } from '../Styled/Layout'
 import Title from './Title'
 import SmallTitle from './SmallTitle'
 import BusinessCenter from '@material-ui/icons/BusinessCenter'
@@ -9,26 +9,23 @@ import ResumeItem from './ResumeItem'
 const resumeContents = [
     {
         id: 1,
-        year: 'Nov 2021-Present',
-        title: 'Software Engineer ',
-        subTitle: '[BitClass] , Banglore, karnataka,India',
+        title: 'Google Search Engine Clone ',
+        subTitle: 'NextJs, Typescript, ReactJs, and TailwindCss',
         text: [
-            'Implemented new responsive, mobile-first approach which increased mobile traffic by 20%.',
-            'Improve company retention from 12% to 20% with QuickBit feature by this feature we increase cash flow approx 18%.',
-            'Rewrote jsx to meet industry and company standard for SEO and accessibility .',
-            'Mentor 2 junior frontend developer team in expanding javascript,next js,Reactjs skill-set .',
-            'Contributed in house UI library to create re- useable component that save over 100 hours of development time per month.',
-            'Worked closely with product and marketing team to redesign and improve the UI for activation and retention the user.',
-            'Worked on payments team to save over 10000 customers time & improve cash flow through the development and modern responsive customer experience .',
-            'Boosted conversion rate up to 46% by design and improvement .',
-            'Migrate full feature app in next js with handling of 1000 daily active users.',
+            'I leveraged the power of Next.js and React.js to craft a Google-like search engine, incorporating voice search functionality for an immersive user experience',
+            ' By integrating voice search capabilities, I not only enhanced accessibility but also embraced emerging trends in user interface design',
+            'With a focus on code quality, reusable components, and meticulous folder structure.',
+            'TypeScript ensured seamless data type handling, eliminating compilation errors, and the implementation of TypeScript, I fortified my codebase with static typing, preemptively catching errors and fostering a more resilient application architecture.',
+            'Furthermore, adhering to SEO best practices and optimizing for performance, I orchestrated a harmonious blend of functionality and efficiency.',
+            ' Leveraging Tailwind CSS, I streamlined the styling process, accelerating development cycles without compromising design integrity',
+            'Ultimately, my project is a testament to the fusion of cutting-edge technology, meticulous craftsmanship, and a steadfast commitment to delivering unparalleled user experiences in the digital realm.',
+            'My project epitomizes excellence in modern web development practices.',
         ],
     },
     {
         id: 2,
-        year: 'Sep 2021-Nov 2021',
-        title: 'Software Developer',
-        subTitle: '[Questt], Banglore,karnataka,India',
+        title: 'Codepen Clone',
+        subTitle: 'ReactJs,ReactHooks and React Code-mirror',
         text: [
             'Make teacher dashboard for teacher journey on Web.',
             'Building fully feature teacher on boarding journey on web with React ,Redux , react hooks, redux saga for side effects, and Styled components.',
@@ -39,9 +36,8 @@ const resumeContents = [
     },
     {
         id: 3,
-        year: 'Jan 2020-March 2021',
-        title: 'Sonftware Developer',
-        subTitle: '[Navana Tech] ,Banglore,karnataka,India',
+        title: 'Nike-store',
+        subTitle: 'ReactJs, Redux, TailwindCss, ReactHooks, ',
         text: [
             'Building fully-functional CMS for managing chatbot events along with chatbot UI and placement on the screen of chatbot via CMS.',
             ' React ,Redux with Immer js, React hooks,Material UI ,JWT and React router dom etc are the main library that I have used for making product appearance, components logic.',
@@ -52,9 +48,8 @@ const resumeContents = [
     },
     {
         id: 4,
-        year: 'Aug 2020- Dec 2021',
-        title: 'Web Developer',
-        subTitle: 'NxtLife technologies in Gurgaon,Haryana,India',
+        title: 'Music-PlayList-App',
+        subTitle: 'Typescript, ReactJs, IndexDB and TailwindCss',
         text: [
             'Making hybrid app by using Ionic framework and perform rest api with Asyc await.',
             'Made webPages using Angular8 rxjs and reusable atomic, isolated, optimized components with scalable code.',
@@ -63,9 +58,9 @@ const resumeContents = [
     },
     {
         id: 5,
-        year: 'Aug 2018-Sept 2018',
-        title: 'FrontEnd Developer',
-        subTitle: 'CureOre.com in Bhopal,Madhaya-Pradesh,India',
+        title: 'Twitter-Clone',
+        subTitle:
+            'NextJs, ReactJs,Firebase,ReactHooks, React-Router TailwindCss,',
         text: [
             'Learn Angular 6 and its core concept with RXJS.',
             'Making Component and passing data to it . ',
@@ -99,8 +94,7 @@ const educationalContents = [
         id: 4,
         year: 'July 2014-June 2016',
         title: 'Higher Seconadary',
-        subTitle:
-            'Aditya Birla Intermediate College,Renukoot,UP',
+        subTitle: 'Aditya Birla Intermediate College,Renukoot,UP',
         text: 'Science Stream with 7.5CGPA ',
     },
 ]
@@ -112,7 +106,7 @@ const Resume = () => {
                 <div className="small-title">
                     <SmallTitle
                         icon={<BusinessCenter />}
-                        title="Working Experince"
+                        title="Projects Experience"
                     />
                 </div>
                 <div className="resume-content">
