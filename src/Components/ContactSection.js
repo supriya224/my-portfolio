@@ -15,7 +15,6 @@ const ContactSection = () => {
             icon: <PhoneIcon />,
             title: 'Phone Number',
             contact1: '8081149224',
-            contact2: '9918569439',
         },
         {
             icon: <EmailIcon />,
@@ -78,13 +77,7 @@ const ContactSection = () => {
                             {ContactDetials.map((cItem, i) => (
                                 <ContactItems key={i} {...cItem} />
                             ))}
-                            {/* <p>sfsfsfsf</p>
-                            <p>sfsfsfsf</p>
-                            <p>sfsfsfsf</p>
-                            <p>sfsfsfsf</p>
-                            <p>sfsfsfsf</p>
-                            <p>sfsfsfsf</p>
-                            <p>sfsfsfsf</p> */}
+                        
                         </div>
                     </div>
                 </InnerLayout>

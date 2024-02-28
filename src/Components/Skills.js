@@ -47,7 +47,12 @@ const allSkills = [
         text: '70%',
     },
     {
-        title: 'Material-Ui',
+        title: 'Material-UI',
+        width: '60%',
+        text: '60%',
+    },
+    {
+        title: 'GitHub',
         width: '60%',
         text: '60%',
     },

@@ -10,7 +10,7 @@ const ResumeItem = ({title, subTitle, text }) => {
             </div>
             <div className="right-content">
                 <h5>{title}</h5>
-                <h6> Tech Used:  {subTitle}</h6>
+                <h6>  {subTitle}</h6>
                 <div>
                     {Array.isArray(text) ? (
                         <>
