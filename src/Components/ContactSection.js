@@ -10,6 +10,7 @@ import LocationOnIcon from '@material-ui/icons/LocationOn'
 import ContactItems from './ContactItems'
 
 const ContactSection = () => {
+   
     const ContactDetials = [
         {
             icon: <PhoneIcon />,
@@ -68,6 +69,7 @@ const ContactSection = () => {
                                         rows="8"
                                     />
                                 </div>
+                               
                                 <div className="form-field form-button">
                                     <PrimaryButton title="Send Email" />
                                 </div>
@@ -77,7 +79,6 @@ const ContactSection = () => {
                             {ContactDetials.map((cItem, i) => (
                                 <ContactItems key={i} {...cItem} />
                             ))}
-                        
                         </div>
                     </div>
                 </InnerLayout>
@@ -153,6 +154,7 @@ const ContactSectionStyle = styled.section`
             .form-button {
                 width: 100%;
             }
+            
             @media screen and (max-width: 380px) {
                 width: 95%;
                 .form-button {

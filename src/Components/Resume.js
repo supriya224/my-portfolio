@@ -105,7 +105,7 @@ const educationalContents = [
 const Resume = () => {
     return (
         <ResumeStyle>
-            <Title title="Resume" span="Resume" />
+            <Title title="Work" span="Resume" />
             <InnerLayout>
                 <div className="small-title">
                     <SmallTitle

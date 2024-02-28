@@ -27,8 +27,8 @@ const allSkills = [
  
     {
         title: 'Redux Toolkit',
-        width: '40%',
-        text: '40%',
+        width: '30%',
+        text: '30%',
     },
 
     {
