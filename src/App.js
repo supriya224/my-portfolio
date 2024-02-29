@@ -68,7 +68,7 @@ function App() {
                     </div>
 
                     <Routes>
-                    <Route path="/" element={ <HomePage setTitle={setTitle} />} />
+                    <Route path="/my-portfolio" element={ <HomePage setTitle={setTitle} />} />
                     <Route path="/about" element={<AboutPage setTitle={setTitle} />} />
                     <Route path="/resume" element={  <ResumePage setTitle={setTitle} />} />
                     <Route path="/portfolios" element={  <PortfolioPage setTitle={setTitle} />} />
@@ -76,8 +76,8 @@ function App() {
                                 {/* </Route> */}
                         <Route
                             exact
-                            path="/"
-                            render={() => <Link to="/" />}
+                            path="/my-portfolio"
+                            render={() => <Link to="/my-portfolio" />}
                         />
                         {/* <Route path="/home" component={HomePage} /> */}
 

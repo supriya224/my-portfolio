@@ -7,7 +7,7 @@ const ImageSection = () => {
     return (
         <ImageSectionStyled>
             <div className="left_content">
-                <img src="https://supriya224.github.io/my-portfolio/logo192.png" width={200} height={200} alt="notLoad" loading='lazy' />
+                <img src="https://supriya224.github.io/my-portfolio/img.jpeg" width={200} height={200} alt="notLoad" loading='lazy' />
             </div>
             <div className="right_content">
                 <div className="sub_title">
