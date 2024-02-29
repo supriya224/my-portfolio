@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import { MainLayout } from '../Styled/Layout'
 import Title from '../Components/Title'
-import ImageSection from '../Components/ImageSection'
+import ImageSection from './ImageSection'
 import Service from '../Components/Service'
 import ReviewSection from '../Components/ReviewSection'
 
