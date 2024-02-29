@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-// import resume from '../Assets/imgs/img1.jpg'
 import PrimaryButton from './PrimaryButton'
+import myImage from '../Assets/imgs/img.jpeg';
 const ImageSection = () => {
+    console.log("Proc",process.env.PUBLIC_URL);
     return (
         <ImageSectionStyled>
             <div className="left_content">
-                <img src="/assets/img.jpeg" alt="" loading='lazy' />
-                {/* <img src="/assets/opentoWork.png" alt="resume Img" /> */}
+                <img src={myImage} alt="" loading='lazy' />
             </div>
             <div className="right_content">
                 <div className="sub_title">
