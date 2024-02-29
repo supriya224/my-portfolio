@@ -2,27 +2,27 @@ import React from 'react'
 import styled from 'styled-components'
 import { InnerLayout } from '../Styled/Layout'
 import Title from './Title'
-import web from '../Assets/imgs/seo.png'
-import api from '../Assets/imgs/api.png'
-import seo from '../Assets/imgs/web.png'
+// import web from '../Assets/imgs/seo.png'
+// import api from '../Assets/imgs/api.png'
+// import seo from '../Assets/imgs/web.png'
 // import mern from '../Assets/imgs/mern.png'
 
 import ServiceCard from './ServiceCard'
 const serviceArry = [
     {
-        image: api,
+        image: 'https://supriya224.github.io/my-portfolio/assets/api.png',
         title: 'WebSite Developement',
         paragraph:
             'Reactwith typescript,Redux,React-Hooks,Formik,MaterialUi,Styled-components',
     },
     {
-        image: web,
+        image: 'https://supriya224.github.io/my-portfolio/assets/web.png',
         title: 'SEO',
         paragraph:
             'Enhancing online visibility through strategic optimization for search engines, driving organic traffic and improving website rankings.',
     },
     {
-        image: seo,
+        image: 'https://supriya224.github.io/my-portfolio/assets/seo.png',
         title: 'Page Performance',
         paragraph:
         'Enhances loading speed and overall web page performance by optimizing factors such as image sizes, code efficiency, and server response time',

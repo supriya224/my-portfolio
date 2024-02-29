@@ -1,9 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import PrimaryButton from '../Components/PrimaryButton'
-import avatar from '../Assets/imgs/googl.png'
 const ImageSection = () => {
-    console.log("Proc",avatar);
     return (
         <ImageSectionStyled>
             <div className="left_content">
