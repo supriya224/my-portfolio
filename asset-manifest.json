@@ -1,14 +1,28 @@
 {
   "files": {
-    "main.js": "/my-portfolio/static/js/main.86a90a1a.js",
-    "static/media/img.jpeg": "/my-portfolio/static/media/img.5323caf1707700f5c274.jpeg",
-    "static/media/web.png": "/my-portfolio/static/media/web.6c89fa376892cc7ac7c2.png",
-    "static/media/api.png": "/my-portfolio/static/media/api.bfb545fcc842a477d5ac.png",
-    "static/media/seo.png": "/my-portfolio/static/media/seo.e9ff7f400fef7f70abe9.png",
-    "index.html": "/my-portfolio/index.html",
-    "main.86a90a1a.js.map": "/my-portfolio/static/js/main.86a90a1a.js.map"
+    "main.js": "./static/js/main.ddedc64b.js",
+    "static/media/music.png": "./static/media/music.a06cc8960d64180aa613.png",
+    "static/media/product.png": "./static/media/product.af1d131f95bbecdf1ccd.png",
+    "static/media/nike.png": "./static/media/nike.e1a6c1b5d69aedd2236c.png",
+    "static/media/ecom.png": "./static/media/ecom.55513ff83886c3773b34.png",
+    "static/media/zomato.png": "./static/media/zomato.e18329d2dabbf3c0df43.png",
+    "static/media/googl.png": "./static/media/googl.92e7c8f429bc0e88b671.png",
+    "static/media/admin.png": "./static/media/admin.44a9f892b298ec0d56df.png",
+    "static/media/port.png": "./static/media/port.65bdd182dd61bbc5e829.png",
+    "static/media/joke.png": "./static/media/joke.d664649d07e1b2cfd964.png",
+    "static/media/quote.png": "./static/media/quote.e981e86b8a8409f2c1f9.png",
+    "static/media/dic.png": "./static/media/dic.e5db1eaf0d11bfca1beb.png",
+    "static/media/note.png": "./static/media/note.724135ff1c32d5dc4d45.png",
+    "static/media/game.png": "./static/media/game.653a3fa3ca39d62bfd16.png",
+    "static/media/code.png": "./static/media/code.80ab91a498532e5ef2ba.png",
+    "static/media/img.jpeg": "./static/media/img.5323caf1707700f5c274.jpeg",
+    "static/media/web.png": "./static/media/web.6c89fa376892cc7ac7c2.png",
+    "static/media/api.png": "./static/media/api.bfb545fcc842a477d5ac.png",
+    "static/media/seo.png": "./static/media/seo.e9ff7f400fef7f70abe9.png",
+    "index.html": "./index.html",
+    "main.ddedc64b.js.map": "./static/js/main.ddedc64b.js.map"
   },
   "entrypoints": [
-    "static/js/main.86a90a1a.js"
+    "static/js/main.ddedc64b.js"
   ]
 }
