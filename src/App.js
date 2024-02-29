@@ -2,12 +2,7 @@ import { useEffect, useState } from 'react'
 
 import styled from 'styled-components'
 import SideBar from './Components/SideBar'
-import {
-    BrowserRouter as Router,
-    Route,
-    Switch as Switchs,
-    Redirect,
-} from 'react-router-dom'
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import HomePage from './Pages/HomePage'
 import AboutPage from './Pages/AboutPage'
 import ResumePage from './Pages/ResumePage'
@@ -15,10 +10,8 @@ import PortfolioPage from './Pages/PortfolioPage'
 import ContactPage from './Pages/ContactPage'
 import Brightness4Icon from '@material-ui/icons/Brightness4'
 import Switch from '@material-ui/core/Switch'
-// import LightModeIcon from '@material-ui/icons/lig'
 import LightModeIcon from '@material-ui/icons/Brightness7'
 import NotesIcon from '@material-ui/icons/Notes'
-import { Switch } from 'react-router-dom';
 import { IconButton } from '@material-ui/core'
 function App() {
     const [theme, settheme] = useState('dark-theme')
@@ -30,7 +23,8 @@ function App() {
         document.title = title
     }, [theme, title])
     return (
-        <Router initialRoute="/home">
+        <>
+        <BrowserRouter initialRoute="/home">
             <AppWrapper>
                 <SideBar navToggle={navToggle} />
                 <div className="theme">
@@ -47,7 +41,7 @@ function App() {
                                 size="small"
                                 value={theme}
                                 color="default"
-                                checked={theme == 'dark-theme'}
+                                checked={theme === 'dark-theme'}
                                 onChange={() =>
                                     theme == 'dark-theme'
                                         ? settheme('light-theme')
@@ -73,32 +67,28 @@ function App() {
                         <div className="line-4"></div>
                     </div>
 
-                    <Switchs>
-                        <Route path="/home">
-                            <HomePage setTitle={setTitle} />
-                        </Route>
-                        <Route path="/about" exact>
-                            <AboutPage setTitle={setTitle} />
-                        </Route>
-                        <Route path="/resume" exact>
-                            <ResumePage setTitle={setTitle} />
-                        </Route>
-                        <Route path="/portfolios" exact>
-                            <PortfolioPage setTitle={setTitle} />
-                        </Route>
-                        <Route path="/contact" exact>
-                            <ContactPage setTitle={setTitle} />
-                        </Route>
+                    <Routes>
+                    <Route path="/home" element={ <HomePage setTitle={setTitle} />} />
+                    <Route path="/about" element={<AboutPage setTitle={setTitle} />} />
+                    <Route path="/resume" element={  <ResumePage setTitle={setTitle} />} />
+                    <Route path="/portfolios" element={  <PortfolioPage setTitle={setTitle} />} />
+                    <Route path="/contact" element={ <ContactPage setTitle={setTitle} />} />
+                                {/* </Route> */}
                         <Route
                             exact
                             path="/"
-                            render={() => <Redirect to="/home" />}
+                            render={() => <Link to="/home" />}
                         />
                         <Route path="*" component={HomePage} />
-                    </Switchs>
+
+                    </Routes>
+
+
+
                 </MainWrapper>
             </AppWrapper>
-        </Router>
+        </BrowserRouter>
+        </>
     )
 }
 const AppWrapper = styled.div`
@@ -143,16 +133,7 @@ const AppWrapper = styled.div`
             display: block;
         }
     }
-    /* @media screen and (max-width: 770px) {
-        .menu_icon_wrapper {
-            right: 10%;
-        }
-    }
-    @media screen and (max-width: 550px) {
-        .menu_icon_wrapper {
-            right: 15%;
-        }
-    } */
+
 `
 const MainWrapper = styled.main`
     position: relative;
