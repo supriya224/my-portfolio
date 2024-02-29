@@ -6,7 +6,7 @@ const ImageSection = () => {
     return (
         <ImageSectionStyled>
             <div className="left_content">
-                <img src="./assets/img12.png" alt="" loading='lazy' />
+                <img src="./assets/img.jpeg" alt="" loading='lazy' />
                 {/* <img src="./assets/opentoWork.png" alt="resume Img" /> */}
             </div>
             <div className="right_content">

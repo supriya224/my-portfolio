@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
-import avatar from '../Assets/imgs/img12.png'
+import avatar from '../Assets/imgs/img.jpeg'
 import SwingItem from './SwingItem'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
