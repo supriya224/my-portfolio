@@ -24,7 +24,7 @@ function App() {
     }, [theme, title])
     return (
         <>
-        <BrowserRouter initialRoute="/home">
+        <BrowserRouter>
             <AppWrapper>
                 <SideBar navToggle={navToggle} />
                 <div className="theme">
@@ -68,7 +68,7 @@ function App() {
                     </div>
 
                     <Routes>
-                    <Route path="/home" element={ <HomePage setTitle={setTitle} />} />
+                    <Route path="/" element={ <HomePage setTitle={setTitle} />} />
                     <Route path="/about" element={<AboutPage setTitle={setTitle} />} />
                     <Route path="/resume" element={  <ResumePage setTitle={setTitle} />} />
                     <Route path="/portfolios" element={  <PortfolioPage setTitle={setTitle} />} />
@@ -77,9 +77,9 @@ function App() {
                         <Route
                             exact
                             path="/"
-                            render={() => <Link to="/home" />}
+                            render={() => <Link to="/" />}
                         />
-                        <Route path="*" component={HomePage} />
+                        {/* <Route path="/home" component={HomePage} /> */}
 
                     </Routes>
 
