@@ -122,6 +122,15 @@ export const portfolios = [
         title: 'Zomato-Clone',
         text: `ReactJs, ReactHooks,React-Router,Css`,
     },
+    {
+        id: 14,
+        category: 'Reactjs',
+        image: './assets/port.png',
+        github: 'https://github.com/supriya224/my-portfolio',
+        linkedin: 'https://supriya224.github.io/my-portfolio/',
+        title: 'Codepen clone',
+        text: 'React,React-codemirror2',
+    },
 
 
 ]
