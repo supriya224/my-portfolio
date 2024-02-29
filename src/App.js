@@ -18,6 +18,7 @@ import Switch from '@material-ui/core/Switch'
 // import LightModeIcon from '@material-ui/icons/lig'
 import LightModeIcon from '@material-ui/icons/Brightness7'
 import NotesIcon from '@material-ui/icons/Notes'
+import { Switch } from 'react-router-dom';
 import { IconButton } from '@material-ui/core'
 function App() {
     const [theme, settheme] = useState('dark-theme')
