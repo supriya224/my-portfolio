@@ -43,7 +43,7 @@ function App() {
                                 color="default"
                                 checked={theme === 'dark-theme'}
                                 onChange={() =>
-                                    theme == 'dark-theme'
+                                    theme === 'dark-theme'
                                         ? settheme('light-theme')
                                         : settheme('dark-theme')
                                 }
