@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import PrimaryButton from './PrimaryButton'
-import myImage from '../Assets/imgs/img.jpeg';
+import avatar from '../Assets/imgs/img.jpeg'
 const ImageSection = () => {
     console.log("Proc",process.env.PUBLIC_URL);
     return (
         <ImageSectionStyled>
             <div className="left_content">
-                <img src={myImage} alt="" loading='lazy' />
+                <img src={avatar} alt="" loading='lazy' />
             </div>
             <div className="right_content">
                 <div className="sub_title">
