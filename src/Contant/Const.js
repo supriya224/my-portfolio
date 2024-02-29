@@ -2,7 +2,7 @@ export const portfolios = [
     {
         id: 1,
         category: 'Typescript',
-        image: './assets/googl.png',
+        image: '/assets/googl.png',
         github: 'https://github.com/supriya224/googleSearchEngine-clone',
         linkedin: 'https://main--thunderous-florentine-bb3b72.netlify.app/',
         title: 'Google clone',
@@ -11,7 +11,7 @@ export const portfolios = [
     {
         id: 2,
         category: 'Reactjs',
-        image: './assets/code.png',
+        image: '/assets/code.png',
         github: 'https://github.com/supriya224/codepen-clone',
         linkedin: 'https://supriya224.github.io/codepen-clone/',
         title: 'Codepen clone',
@@ -20,7 +20,7 @@ export const portfolios = [
     {
         id: 3,
         category: 'Typescript',
-        image: './assets/music.png',
+        image: '/assets/music.png',
         github: 'https://github.com/supriya224/Music-App',
         linkedin:
             'https://supriya224.github.io/Music-App/',
@@ -30,7 +30,7 @@ export const portfolios = [
     {
         id: 4,
         category: 'Reactjs',
-        image: './assets/note.png',
+        image: '/assets/note.png',
         github: 'https://github.com/supriya224/notes-web-app',
         linkedin: 'https://supriya224.github.io/notes-web-app/',
         title: 'React Notes-Web-App',
@@ -40,7 +40,7 @@ export const portfolios = [
     {
         id: 13,
         category: 'Typescript',
-        image: './assets/admin.png',
+        image: '/assets/admin.png',
         github: ' https://github.com/supriya224/Admin-Dashboard-typescript',
         linkedin:
             'https://elegant-stroopwafel-e2b1f6.netlify.app/',
@@ -50,7 +50,7 @@ export const portfolios = [
     {
         id: 5,
         category: 'Javascript',
-        image: './assets/dic.png',
+        image: '/assets/dic.png',
         github: 'https://github.com/supriya224/dictinoryApp',
         linkedin: 'https://supriya224.github.io/dictinoryApp/',
         title: 'Dictionary-Web-App',
@@ -59,7 +59,7 @@ export const portfolios = [
     {
         id: 10,
         category: 'Reactjs',
-        image: './assets/nike.png',
+        image: '/assets/nike.png',
         github: 'https://github.com/supriya224/Nike-Store',
         linkedin: 'https://unique-torrone-70b350.netlify.app/',
         title: 'Nike-store',
@@ -68,7 +68,7 @@ export const portfolios = [
     {
         id: 9,
         category: 'Javascript',
-        image: './assets/quote.png',
+        image: '/assets/quote.png',
         github: ' https://github.com/supriya224/quotoGenerator',
         linkedin: 'https://courageous-hummingbird-dae033.netlify.app/',
         title: 'Quote Generator Web-App',
@@ -78,7 +78,7 @@ export const portfolios = [
     {
         id: 6,
         category: 'Javascript',
-        image: './assets/game.png',
+        image: '/assets/game.png',
         github: 'https://github.com/supriya224/2048Game',
         linkedin: 'https://supriya224.github.io/2048Game/',
         title: '2028 Game',
@@ -88,7 +88,7 @@ export const portfolios = [
     {
         id: 11,
         category: 'Reactjs',
-        image: './assets/ecom.png',
+        image: '/assets/ecom.png',
         github: 'https://github.com/supriya224/E-Commerece-web-app',
         linkedin: 'https://supriya224.github.io/E-Commerece-web-app/',
         title: 'E-Commerece',
@@ -97,7 +97,7 @@ export const portfolios = [
     {
         id: 7,
         category: 'Javascript',
-        image: './assets/joke.png',
+        image: '/assets/joke.png',
         github: 'https://github.com/supriya224/jokeGenerator',
         linkedin: 'https://supriya224.github.io/jokeGenerator/',
         title: 'joke-web-App',
@@ -106,7 +106,7 @@ export const portfolios = [
     {
         id: 8,
         category: 'Javascript',
-        image: './assets/product.png',
+        image: '/assets/product.png',
         github: 'https://github.com/supriya224/product-filter',
         linkedin: 'https://brilliant-fairy-6d3109.netlify.app/',
         title: 'ECommerec product-filter',
@@ -115,7 +115,7 @@ export const portfolios = [
     {
         id: 12,
         category: 'Reactjs',
-        image: './assets/zomato.png',
+        image: '/assets/zomato.png',
         github: 'https://github.com/supriya224/zomato-clone-app',
         linkedin:
             '//astounding-alfajores-34473b.netlify.app/',
@@ -125,7 +125,7 @@ export const portfolios = [
     {
         id: 14,
         category: 'Reactjs',
-        image: './assets/port.png',
+        image: '/assets/port.png',
         github: 'https://github.com/supriya224/my-portfolio',
         linkedin: 'https://supriya224.github.io/my-portfolio/',
         title: 'Codepen clone',
