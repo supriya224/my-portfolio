@@ -22,8 +22,7 @@ export const portfolios = [
         category: 'Typescript',
         image: 'https://supriya224.github.io/my-portfolio/assets/music.png',
         github: 'https://github.com/supriya224/Music-App',
-        linkedin:
-            'https://supriya224.github.io/Music-App/',
+        linkedin: 'https://supriya224.github.io/Music-App/',
         title: 'My own Music playlist-web-app',
         text: `ReactJs, Typescript, IndexDB, TailwindCss`,
     },
@@ -51,8 +50,7 @@ export const portfolios = [
         category: 'Typescript',
         image: 'https://supriya224.github.io/my-portfolio/assets/admin.png',
         github: ' https://github.com/supriya224/Admin-Dashboard-typescript',
-        linkedin:
-            'https://elegant-stroopwafel-e2b1f6.netlify.app/',
+        linkedin: 'https://elegant-stroopwafel-e2b1f6.netlify.app/',
         title: 'TailAdmin-clone-app',
         text: `vite+ReactJs, Typescript,TailwindCss ReactHooks,React-router-dom,react-apexcharts,flatpickr,apexcharts`,
     },
@@ -134,12 +132,8 @@ export const portfolios = [
         category: 'Reactjs',
         image: 'https://supriya224.github.io/my-portfolio/assets/zomato.png',
         github: 'https://github.com/supriya224/zomato-clone-app',
-        linkedin:
-            '//astounding-alfajores-34473b.netlify.app/',
+        linkedin: '//astounding-alfajores-34473b.netlify.app/',
         title: 'Zomato-Clone',
         text: `ReactJs, ReactHooks,React-Router,Css`,
     },
-   
-
-
 ]

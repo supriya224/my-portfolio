@@ -5,7 +5,11 @@ const ImageSection = () => {
     return (
         <ImageSectionStyled>
             <div className="left_content">
-                <img src="https://supriya224.github.io/my-portfolio/assets/img.jpeg" alt="notLoad" loading='lazy' />
+                <img
+                    src="https://supriya224.github.io/my-portfolio/assets/img.jpeg"
+                    alt="notLoad"
+                    loading="lazy"
+                />
             </div>
             <div className="right_content">
                 <div className="sub_title">
@@ -26,7 +30,6 @@ const ImageSection = () => {
                         <p>Languages</p>
                         <p>Location</p>
                         <p>Qualification</p>
-                      
                     </div>
                     <div className="info">
                         <p>

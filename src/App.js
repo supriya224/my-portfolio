@@ -24,70 +24,80 @@ function App() {
     }, [theme, title])
     return (
         <>
-        <BrowserRouter>
-            <AppWrapper>
-                <SideBar navToggle={navToggle} />
-                <div className="theme">
-                    <div className="left-dark-mode">
-                        <div className="left-content">
-                            {theme === 'dark-theme' ? (
-                                <Brightness4Icon />
-                            ) : (
-                                <LightModeIcon />
-                            )}
+            <BrowserRouter>
+                <AppWrapper>
+                    <SideBar navToggle={navToggle} />
+                    <div className="theme">
+                        <div className="left-dark-mode">
+                            <div className="left-content">
+                                {theme === 'dark-theme' ? (
+                                    <Brightness4Icon />
+                                ) : (
+                                    <LightModeIcon />
+                                )}
+                            </div>
+                            <div className="right-content">
+                                <Switch
+                                    size="small"
+                                    value={theme}
+                                    color="default"
+                                    checked={theme === 'dark-theme'}
+                                    onChange={() =>
+                                        theme === 'dark-theme'
+                                            ? settheme('light-theme')
+                                            : settheme('dark-theme')
+                                    }
+                                    inputProps={{ 'aria-label': 'controlled' }}
+                                />
+                            </div>
                         </div>
-                        <div className="right-content">
-                            <Switch
-                                size="small"
-                                value={theme}
-                                color="default"
-                                checked={theme === 'dark-theme'}
-                                onChange={() =>
-                                    theme === 'dark-theme'
-                                        ? settheme('light-theme')
-                                        : settheme('dark-theme')
-                                }
-                                inputProps={{ 'aria-label': 'controlled' }}
+                    </div>
+                    <div className="menu_icon_wrapper">
+                        <IconButton
+                            aria-label="menu"
+                            onClick={() => setnavToggle(!navToggle)}>
+                            <NotesIcon />
+                        </IconButton>
+                    </div>
+                    <MainWrapper>
+                        <div className="lines">
+                            <div className="line-1"></div>
+                            <div className="line-2"></div>
+                            <div className="line-3"></div>
+                            <div className="line-4"></div>
+                        </div>
+
+                        <Routes>
+                            <Route
+                                path="/my-portfolio"
+                                element={<HomePage setTitle={setTitle} />}
                             />
-                        </div>
-                    </div>
-                </div>
-                <div className="menu_icon_wrapper">
-                    <IconButton
-                        aria-label="menu"
-                        onClick={() => setnavToggle(!navToggle)}>
-                        <NotesIcon />
-                    </IconButton>
-                </div>
-                <MainWrapper>
-                    <div className="lines">
-                        <div className="line-1"></div>
-                        <div className="line-2"></div>
-                        <div className="line-3"></div>
-                        <div className="line-4"></div>
-                    </div>
-
-                    <Routes>
-                    <Route path="/my-portfolio" element={ <HomePage setTitle={setTitle} />} />
-                    <Route path="/about" element={<AboutPage setTitle={setTitle} />} />
-                    <Route path="/resume" element={  <ResumePage setTitle={setTitle} />} />
-                    <Route path="/portfolios" element={  <PortfolioPage setTitle={setTitle} />} />
-                    <Route path="/contact" element={ <ContactPage setTitle={setTitle} />} />
-                                {/* </Route> */}
-                        <Route
-                            exact
-                            path="/my-portfolio"
-                            render={() => <Link to="/my-portfolio" />}
-                        />
-                        {/* <Route path="/home" component={HomePage} /> */}
-
-                    </Routes>
-
-
-
-                </MainWrapper>
-            </AppWrapper>
-        </BrowserRouter>
+                            <Route
+                                path="/about"
+                                element={<AboutPage setTitle={setTitle} />}
+                            />
+                            <Route
+                                path="/resume"
+                                element={<ResumePage setTitle={setTitle} />}
+                            />
+                            <Route
+                                path="/portfolios"
+                                element={<PortfolioPage setTitle={setTitle} />}
+                            />
+                            <Route
+                                path="/contact"
+                                element={<ContactPage setTitle={setTitle} />}
+                            />
+                            {/* </Route> */}
+                            <Route
+                                exact
+                                path="/my-portfolio"
+                                render={() => <Link to="/my-portfolio" />}
+                            />
+                        </Routes>
+                    </MainWrapper>
+                </AppWrapper>
+            </BrowserRouter>
         </>
     )
 }
@@ -133,7 +143,6 @@ const AppWrapper = styled.div`
             display: block;
         }
     }
-
 `
 const MainWrapper = styled.main`
     position: relative;
