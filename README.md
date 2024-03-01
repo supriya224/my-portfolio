@@ -4,7 +4,7 @@ Welcome to my portfolio repository! Here you can find the source code for my per
 
 ## Deployment
 
-The portfolio website is deployed using GitHub Pages and can be accessed [here](https://supriya224.github.io/my-portfolio).
+The portfolio website is deployed using GitHub Pages and can be accessed [my-portfolio](https://supriya224.github.io/my-portfolio).
 
 ## About
 
