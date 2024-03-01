@@ -92,7 +92,6 @@ export const portfolios = [
         title: 'Quote Generator Web-App',
         text: 'HTML, Css, Javascript, Quote-api',
     },
-
     {
         id: 6,
         category: 'Javascript',
