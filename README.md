@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Portfolio README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio repository! Here you can find the source code for my personal portfolio website.
 
-## Available Scripts
+## Deployment
 
-In the project directory, you can run:
+The portfolio website is deployed using GitHub Pages and can be accessed [my-portfolio](https://supriya224.github.io/my-portfolio).
 
-### `npm start`
+## About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This portfolio is built using HTML, CSS, and JavaScript. It is designed to be responsive and accessible across various devices and screen sizes.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Project Showcase**: View my latest projects along with descriptions and links to live demos or source code repositories.
+- **Skills**: React, React-Hooks, React-Router, styled-components.
+- 
+  #screenshot
+<img width="1440" alt="Screenshot 2024-03-01 at 8 16 14 AM" src="https://github.com/supriya224/my-portfolio/assets/52038704/e3476c79-cb41-4272-a10b-073cdeb28b95">
+<img width="1440" alt="Screenshot 2024-03-01 at 8 16 17 AM" src="https://github.com/supriya224/my-portfolio/assets/52038704/ae23c9a3-2947-45f7-b8e5-72f74f57d4d2">
+<img width="1440" alt="Screenshot 2024-03-01 at 8 16 28 AM" src="https://github.com/supriya224/my-portfolio/assets/52038704/9413ccc1-b73c-45f5-aead-9da514144d8f">
+<img width="1440" alt="Screenshot 2024-03-01 at 8 16 33 AM" src="https://github.com/supriya224/my-portfolio/assets/52038704/d394d888-4231-466a-a14e-7d7da1c7b0d6">
+<img width="1440" alt="Screenshot 2024-03-01 at 8 16 36 AM" src="https://github.com/supriya224/my-portfolio/assets/52038704/0ac23f50-360a-4f2a-91f5-c9a88683a3ca">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+Feel free to explore the source code to understand how the portfolio website is built. You can also use it as a template for creating your own portfolio.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I welcome contributions to improve this portfolio website. If you find any bugs, have suggestions for new features, or want to contribute enhancements, please submit a pull request or open an issue.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+This project is licensed under the [MIT License](LICENSE).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contact
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you have any questions or want to get in touch, you can reach me at [Email](mailto:supriyam224@gmail.com).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Thank you for visiting my portfolio! 🚀
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
