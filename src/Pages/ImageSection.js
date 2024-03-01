@@ -49,7 +49,7 @@ const ImageSection = () => {
                 <PrimaryButton
                     title="Download Resume"
                     target="_blank"
-                    href="https://drive.google.com/file/d/1JHSoMVBKIlnqviPi5jCuiAe_UFd25DsX/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1rAvX-PcibJotQUJ3BzbZIE8cb-HzXlSP/view?usp=drive_link"
                 />
             </div>
         </ImageSectionStyled>

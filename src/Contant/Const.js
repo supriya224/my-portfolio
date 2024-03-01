@@ -28,6 +28,15 @@ export const portfolios = [
         text: `ReactJs, Typescript, IndexDB, TailwindCss`,
     },
     {
+        id: 14,
+        category: 'Reactjs',
+        image: 'https://supriya224.github.io/my-portfolio/assets/port.png',
+        github: 'https://github.com/supriya224/my-portfolio',
+        linkedin: 'https://supriya224.github.io/my-portfolio/',
+        title: 'My portfolio',
+        text: 'React,styled-component',
+    },
+    {
         id: 4,
         category: 'Reactjs',
         image: 'https://supriya224.github.io/my-portfolio/assets/note.png',
@@ -46,6 +55,15 @@ export const portfolios = [
             'https://elegant-stroopwafel-e2b1f6.netlify.app/',
         title: 'TailAdmin-clone-app',
         text: `vite+ReactJs, Typescript,TailwindCss ReactHooks,React-router-dom,react-apexcharts,flatpickr,apexcharts`,
+    },
+    {
+        id: 15,
+        category: 'Reactjs',
+        image: 'https://supriya224.github.io/my-portfolio/assets/twitter.png',
+        github: 'https://github.com/supriya224/twitter-clone',
+        // linkedin: 'https://supriya224.github.io/my-portfolio/',
+        title: 'Twitter -clone',
+        text: 'ReactJs, NextJs ,NextAuth, Firebase, TailwindCss',
     },
     {
         id: 5,
@@ -122,15 +140,7 @@ export const portfolios = [
         title: 'Zomato-Clone',
         text: `ReactJs, ReactHooks,React-Router,Css`,
     },
-    {
-        id: 14,
-        category: 'Reactjs',
-        image: 'https://supriya224.github.io/my-portfolio/assets/port.png',
-        github: 'https://github.com/supriya224/my-portfolio',
-        linkedin: 'https://supriya224.github.io/my-portfolio/',
-        title: 'My portfolio',
-        text: 'React,styled-component',
-    },
+   
 
 
 ]
