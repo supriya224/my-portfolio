@@ -14,7 +14,7 @@ const ImageSection = () => {
             <div className="right_content">
                 <div className="sub_title">
                     <h4>
-                        I am <span>Supriya</span>
+                        I am <span>Supriya Maurya</span>
                     </h4>
                 </div>
                 <p className="paragraph">
