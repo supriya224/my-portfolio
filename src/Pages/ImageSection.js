@@ -33,7 +33,7 @@ const ImageSection = () => {
                     </div>
                     <div className="info">
                         <p>
-                            <span>:</span>Supriys Maurya
+                            <span>:</span>Supriya Maurya
                         </p>
                         <p>
                             <span>:</span>Indian
@@ -42,7 +42,7 @@ const ImageSection = () => {
                             <span>:</span>English , Hindi
                         </p>
                         <p>
-                            <span>:</span>Banglore,KA
+                            <span>:</span>Bangalore,KA
                         </p>
                         <p>
                             <span>:</span>B.Tech( IT 2023 )
@@ -52,7 +52,7 @@ const ImageSection = () => {
                 <PrimaryButton
                     title="Download Resume"
                     target="_blank"
-                    href="https://drive.google.com/file/d/1rAvX-PcibJotQUJ3BzbZIE8cb-HzXlSP/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1z6-ipjZgYSdOMuKhkLWaHP6yg75JrZTX/view?usp=sharing"
                 />
             </div>
         </ImageSectionStyled>
