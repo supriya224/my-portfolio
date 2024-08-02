@@ -16,9 +16,7 @@ const ProgressBar = ({ title, width, text }) => {
 }
 
 const ProgressBarStyled = styled.div`
-    /* &:not(:last-child){
-        margin-bottom:0.5rem;
-    } */
+  
     .progress-bar {
         display: flex;
         align-items: center;

@@ -6,7 +6,7 @@ const ImageSection = () => {
         <ImageSectionStyled>
             <div className="left_content">
                 <img
-                    src="https://supriya224.github.io/my-portfolio/assets/img.jpeg"
+                    src="https://github.com/supriya224/my-portfolio/blob/main/public/assets/image.jpeg?raw=true"
                     alt="notLoad"
                     loading="lazy"
                 />
@@ -18,10 +18,7 @@ const ImageSection = () => {
                     </h4>
                 </div>
                 <p className="paragraph">
-                    A passionate and professional React and JavaScript
-                    developer, eager to embark on a journey of learning and
-                    growth as a fresher. Ready to bring creativity, dedication,
-                    and a fresh perspective to every project
+                A passionate and professional React and JavaScript developer, eager to embark on a journey of continuous learning and growth as a fresher. Ready to infuse creativity, dedication, and a fresh perspective into every project.
                 </p>
                 <div className="about-info">
                     <div className="info-title">
@@ -42,7 +39,7 @@ const ImageSection = () => {
                             <span>:</span>English , Hindi
                         </p>
                         <p>
-                            <span>:</span>Bangalore,KA
+                            <span>:</span>Noida,UP
                         </p>
                         <p>
                             <span>:</span>B.Tech( IT 2023 )
@@ -52,7 +49,7 @@ const ImageSection = () => {
                 <PrimaryButton
                     title="Download Resume"
                     target="_blank"
-                    href="https://drive.google.com/file/d/1z6-ipjZgYSdOMuKhkLWaHP6yg75JrZTX/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1XV60GYY_2GbJjaAmuUhN2jWzDNGqFRYf/view?usp=sharing"
                 />
             </div>
         </ImageSectionStyled>

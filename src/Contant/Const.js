@@ -27,7 +27,7 @@ export const portfolios = [
         text: `ReactJs, Typescript, IndexDB, TailwindCss`,
     },
     {
-        id: 14,
+        id: 17,
         category: 'Reactjs',
         image: 'https://supriya224.github.io/my-portfolio/assets/port.png',
         github: 'https://github.com/supriya224/my-portfolio',
@@ -46,21 +46,11 @@ export const portfolios = [
     },
 
     {
-        id: 13,
-        category: 'Typescript',
-        image: 'https://supriya224.github.io/my-portfolio/assets/admin.png',
-        github: ' https://github.com/supriya224/Admin-Dashboard-typescript',
-        linkedin: 'https://elegant-stroopwafel-e2b1f6.netlify.app/',
-        title: 'TailAdmin-clone-app',
-        text: `vite+ReactJs, Typescript,TailwindCss ReactHooks,React-router-dom,react-apexcharts,flatpickr,apexcharts`,
-    },
-    {
-        id: 15,
+        id: 18,
         category: 'Reactjs',
         image: 'https://supriya224.github.io/my-portfolio/assets/twitter.png',
         github: 'https://github.com/supriya224/twitter-clone',
-        // linkedin: 'https://supriya224.github.io/my-portfolio/',
-        title: 'Twitter -clone',
+        title: 'Twitter-clone',
         text: 'ReactJs, NextJs ,NextAuth, Firebase, TailwindCss',
     },
     {
@@ -119,6 +109,15 @@ export const portfolios = [
         text: 'HTML, Css, Javascript, joke-api',
     },
     {
+        id: 16,
+        category: 'Typescript',
+        image: 'https://github.com/supriya224/my-portfolio/blob/main/public/assets/task.png?raw=true',
+        github: 'https://github.com/supriya224/Task-manager-app',
+        linkedin: 'https://task-manager-app-dun.vercel.app/',
+        title: 'Task Manager App',
+        text: `ReactJs, ReactHooks,React-Router,Tailwindcss, typescript`,
+    },
+    {
         id: 8,
         category: 'Javascript',
         image: 'https://supriya224.github.io/my-portfolio/assets/product.png',
@@ -135,5 +134,33 @@ export const portfolios = [
         linkedin: '//astounding-alfajores-34473b.netlify.app/',
         title: 'Zomato-Clone',
         text: `ReactJs, ReactHooks,React-Router,Css`,
+    },
+
+    {
+        id: 13,
+        category: 'Typescript',
+        image: 'https://supriya224.github.io/my-portfolio/assets/admin.png',
+        github: ' https://github.com/supriya224/Admin-Dashboard-typescript',
+        linkedin: 'https://elegant-stroopwafel-e2b1f6.netlify.app/',
+        title: 'TailAdmin-clone-app',
+        text: `vite+ReactJs, Typescript,TailwindCss ReactHooks,React-router-dom,react-apexcharts,flatpickr,apexcharts`,
+    },
+    {
+        id: 14,
+        category: 'Typescript',
+        image: 'https://github.com/supriya224/my-portfolio/blob/main/public/assets/expanse.png?raw=true',
+        github: 'https://github.com/supriya224/expense-task-typescript',
+        linkedin: 'https://expense-task-typescript.vercel.app/',
+        title: 'Expanse Task',
+        text: `ReactJs, ReactHooks,React-Router,Shadcn-ui, typescript`,
+    },
+    {
+        id: 15,
+        category: 'Typescript',
+        image: 'https://github.com/supriya224/my-portfolio/blob/main/public/assets/weather.png?raw=true',
+        github: 'https://github.com/supriya224/weather-app-project',
+        linkedin: 'https://weather-app-project-phi.vercel.app/',
+        title: 'Weather Task',
+        text: `ReactJs, ReactHooks,React-Router,Tailwindcss, typescript`,
     },
 ]

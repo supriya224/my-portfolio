@@ -53,8 +53,18 @@ const allSkills = [
     },
     {
         title: 'GitHub',
-        width: '60%',
-        text: '60%',
+        width: '70%',
+        text: '70%',
+    },
+    {
+        title: 'Shadcn UI',
+        width: '50%',
+        text: '50%',
+    },
+    {
+        title: 'UI Design',
+        width: '80%',
+        text: '80%',
     },
 
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
-import avatar from '../Assets/imgs/img.jpeg'
+// import avatar from '../Assets/imgs/img.jpeg'
 import SwingItem from './SwingItem'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
@@ -9,7 +9,7 @@ const Navigation = () => {
     return (
         <NavigationStyled>
             <div className="avatar">
-                <img src={avatar} alt="" loading="lazy" />
+                <img src="https://github.com/supriya224/my-portfolio/blob/main/public/assets/image.jpeg?raw=true" alt="" loading="lazy" />
                 <div className="swing-section">
                     <SwingItem
                         icons={<GitHubIcon />}
@@ -148,7 +148,7 @@ const NavigationStyled = styled.nav`
         border-top: 1px solid var(--border-color);
         width: 100%;
         p {
-            font-size: 1rem;
+            font-size: 0.7rem;
             padding: 0.6rem 0;
             text-align: center;
             display: block;
