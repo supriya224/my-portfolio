@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ResumeItem = ({title, subTitle, text }) => {
+const ResumeItem = ({title, subTitle, text,name }) => {
     return (
         <ResumeItemStyled>
             <div className="left-content">
@@ -11,6 +11,7 @@ const ResumeItem = ({title, subTitle, text }) => {
             <div className="right-content">
                 <h5>{title}</h5>
                 <h6>  {subTitle}</h6>
+                <h4>{name}</h4>
                 <div>
                     {Array.isArray(text) ? (
                         <>
@@ -83,6 +84,10 @@ const ResumeItemStyled = styled.div`
             font-size: 0.9rem;
             color: var(--white-color);
         }
+            h4{ 
+                    color: var(--white-color);
+                     font-size: 1rem;
+            }
         p {
             word-break: break-all;
         }

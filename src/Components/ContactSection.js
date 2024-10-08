@@ -26,8 +26,8 @@ const ContactSection = () => {
         {
             icon: <LocationOnIcon />,
             title: 'Address',
-            contact1: 'Noida',
-            contact2: 'Bangalore',
+            contact1: 'Bangalore, KA',
+            contact2: 'Mirzapur, UP',
         },
     ]
     return (

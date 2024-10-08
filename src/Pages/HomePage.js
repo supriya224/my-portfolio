@@ -16,11 +16,17 @@ const HomePage = ({ setTitle }) => {
                         Hi I'am <span>Supriya Maurya</span>
                     </h1>
                     <p>
-                        "As a fresher, I bring a blank canvas eager to be filled
-                        with experiences. While I may lack formal experience on
-                        paper, I am ready to immerse myself fully in learning
-                        and contributing to your team. After all, every
-                        masterpiece begins with a single stroke "
+                        "I am a passionate Software Development Engineer (SDE)
+                        intern with a strong foundation in AWS, MongoDB,
+                        Next.js, and TypeScript. My journey in software
+                        development has equipped me with the ability to tackle
+                        complex problems and contribute effectively to projects.
+                        I thrive in dynamic environments, embracing
+                        opportunities to learn and grow. I am eager to
+                        collaborate with teams to build innovative solutions and
+                        create impactful applications. Every project I undertake
+                        serves as a step towards becoming a skilled developer,
+                        and I am excited to leave my mark on the tech world."
                     </p>
                     <div className="icons">
                         <a

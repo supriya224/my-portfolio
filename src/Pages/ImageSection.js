@@ -18,7 +18,7 @@ const ImageSection = () => {
                     </h4>
                 </div>
                 <p className="paragraph">
-                A passionate and professional React and JavaScript developer, eager to embark on a journey of continuous learning and growth as a fresher. Ready to infuse creativity, dedication, and a fresh perspective into every project.
+                I am a passionate Software Development Engineer (SDE) intern with a solid foundation in AWS, MongoDB, Next.js, and TypeScript. I thrive in dynamic environments, eager to tackle complex problems and collaborate on innovative solutions. Each project is a step toward becoming a skilled developer, and I’m excited to leave my mark on the tech world.
                 </p>
                 <div className="about-info">
                     <div className="info-title">
@@ -39,7 +39,7 @@ const ImageSection = () => {
                             <span>:</span>English , Hindi
                         </p>
                         <p>
-                            <span>:</span>Noida,UP
+                            <span>:</span>Bangalore, KA
                         </p>
                         <p>
                             <span>:</span>B.Tech( IT 2023 )
@@ -49,7 +49,7 @@ const ImageSection = () => {
                 <PrimaryButton
                     title="Download Resume"
                     target="_blank"
-                    href="https://drive.google.com/file/d/1XV60GYY_2GbJjaAmuUhN2jWzDNGqFRYf/view?usp=sharing"
+                    href="https://drive.google.com/file/d/12Nl9xmD86vOUdBcBLVF0wvxrDxtsikva/view?usp=sharing"
                 />
             </div>
         </ImageSectionStyled>

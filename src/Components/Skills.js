@@ -66,7 +66,16 @@ const allSkills = [
         width: '80%',
         text: '80%',
     },
-
+    {
+        title: 'AWS',
+        width: '30%',
+        text: '20%',
+    },
+    {
+        title: 'MongoDB',
+        width: '20%',
+        text: '20%',
+    },
 
 ]
 const Skills = () => {
