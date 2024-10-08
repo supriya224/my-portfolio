@@ -31,7 +31,7 @@ export const portfolios = [
         category: 'Reactjs',
         image: 'https://supriya224.github.io/my-portfolio/assets/port.png',
         github: 'https://github.com/supriya224/my-portfolio',
-        linkedin: 'https://supriya224.github.io/my-portfolio/',
+        linkedin: 'https://my-portfolio-izav.vercel.app/my-portfolio',
         title: 'My portfolio',
         text: 'React,styled-component',
     },
