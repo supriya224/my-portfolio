@@ -16,11 +16,9 @@ This portfolio is built using HTML, CSS, and JavaScript. It is designed to be re
 - **Skills**: React, React-Hooks, React-Router, styled-components.
 - 
   #screenshot
-<img width="1440" alt="Screenshot 2024-03-01 at 8 16 14 AM" src="https://github.com/supriya224/my-portfolio/assets/52038704/e3476c79-cb41-4272-a10b-073cdeb28b95">
-<img width="1440" alt="Screenshot 2024-03-01 at 8 16 17 AM" src="https://github.com/supriya224/my-portfolio/assets/52038704/ae23c9a3-2947-45f7-b8e5-72f74f57d4d2">
-<img width="1440" alt="Screenshot 2024-03-01 at 8 16 28 AM" src="https://github.com/supriya224/my-portfolio/assets/52038704/9413ccc1-b73c-45f5-aead-9da514144d8f">
-<img width="1440" alt="Screenshot 2024-03-01 at 8 16 33 AM" src="https://github.com/supriya224/my-portfolio/assets/52038704/d394d888-4231-466a-a14e-7d7da1c7b0d6">
-<img width="1440" alt="Screenshot 2024-03-01 at 8 16 36 AM" src="https://github.com/supriya224/my-portfolio/assets/52038704/0ac23f50-360a-4f2a-91f5-c9a88683a3ca">
+<img width="1440" alt="Screenshot 2024-10-08 at 2 52 42 PM" src="https://github.com/user-attachments/assets/be3de9f9-ba9e-4a0f-a8a1-14137d3cec4b">
+<img width="1440" alt="Screenshot 2024-10-08 at 2 52 34 PM" src="https://github.com/user-attachments/assets/c5a46dae-d40b-48fa-ae18-b1f0a550ff4d">
+
 
 ## Usage
 
