@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-weight: 100; /* or 700 for bold headline */
+  letter-spacing: -0.5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #eae6e1;
+  color: #111;
+  font-family: "Anton", sans-serif;
+}
+
+/* grid background */
+.grid-bg {
+  background-image: linear-gradient(
+    to right,
+    rgba(1, 2, 0, 0.03) 2px,
+    transparent 2px
+  );
+  background-size: 120px 100%;
+}
+.dark .grid-bg {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.1) 1px,
+    transparent 1px
+  );
+}
+
+html {
+  scroll-behavior: smooth;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+@keyframes rotateCube {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+.cube-animation {
+  background: linear-gradient(145deg, #412496, #7e4de2);
+  animation: rotateCube 10s linear infinite;
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) rotateY(0deg);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 0.75rem;
+}
+
+.delay-500 {
+  animation-delay: 5s;
+}
