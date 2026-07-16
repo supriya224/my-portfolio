@@ -28,7 +28,6 @@ export default function Cursor({ dark }: CursorProps) {
     };
 
     window.addEventListener("mousemove", move);
-
     return () => window.removeEventListener("mousemove", move);
   }, [mouseX, mouseY]);
 
@@ -37,7 +36,7 @@ export default function Cursor({ dark }: CursorProps) {
     const leave = () => setIsHovering(false);
 
     const elements = document.querySelectorAll(
-      "a, button, input, textarea, select"
+      "a, button, input, textarea, select, img, [data-cursor]"
     );
 
     elements.forEach((el) => {
@@ -53,6 +52,17 @@ export default function Cursor({ dark }: CursorProps) {
     };
   }, []);
 
+  let cursorImage = "";
+
+  if (dark && isHovering) {
+    cursorImage = "/dark_hover.png";
+  } else if (dark && !isHovering) {
+    cursorImage = "/dark-main.png";
+  } else if (!dark && isHovering) {
+    cursorImage = "/blue-hover.png";
+  } else {
+    cursorImage = "/blue-main.png";
+  }
   return (
     <motion.div
       style={{
@@ -60,51 +70,7 @@ export default function Cursor({ dark }: CursorProps) {
         translateY: springY
       }}
       className="fixed top-0 left-0 z-[9999] pointer-events-none">
-      {/* Default Cursor */}
-      {!isHovering && (
-        <motion.img
-          src={dark ? "/dark-main.png" : "/blue-main.png"}
-          alt="Cursor"
-          className="w-10 h-10"
-          animate={{
-            scale: [1, 1.08, 1]
-          }}
-          transition={{
-            duration: 1.5,
-            repeat: Infinity
-          }}
-        />
-      )}
-
-      {/* Hover Cursor */}
-      {isHovering && (
-        <motion.div
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          exit={{ scale: 0 }}
-          className="relative w-20 h-20 flex items-center justify-center">
-          {[...Array(6)].map((_, i) => (
-            <div
-              // key={i}
-              className="absolute w-5 h-5 rounded-full"
-              style={{
-                backgroundColor: dark ? "#6079FF" : "#0146B5",
-                transform: `
-            rotate(${i * 60}deg)
-            translateY(-28px)
-          `,
-                transformOrigin: "center center"
-              }}
-            />
-          ))}
-
-          <img
-            src={dark ? "/dark_hover.png" : "/blue-hover.png"}
-            alt="Hover Cursor"
-            className="relative z-10 w-10 h-10"
-          />
-        </motion.div>
-      )}
+      <motion.img src={cursorImage} alt="Cursor" className="w-10 h-10" />
     </motion.div>
   );
 }

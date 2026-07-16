@@ -28,18 +28,20 @@ const landingPages = [
 export default function LandingPages() {
   return (
     <MainLayout>
-      <section className="min-h-screen bg-[#0d0d0d] text-white px-8 py-20">
+      <section className="min-h-screen grid-bg bg-[#eae6e1] dark:bg-[#1A1A1A] text-black dark:text-white  px-8 py-20">
         <div className=" mx-auto px-6  ">
           <Link to="/project" className="text-[#0146b5] hover:text-blue-900">
             ← Back to Projects
           </Link>
         </div>
         <div className="max-w-7xl mx-auto text-center">
-          <p className="uppercase tracking-[0.25em] text-[#0146b5] text-center mb-3">
+          <p className="uppercase tracking-[0.25em] dark:text-white  text-center mb-3">
             COLLECTION
           </p>
 
-          <h1 className="text-6xl font-bold mb-16">Landing Pages</h1>
+          <h1 className="text-6xl font-bold mb-16 dark:text-white">
+            Landing Pages
+          </h1>
 
           <div className="grid md:grid-cols-2 gap-10 h-fit relative">
             {landingPages.map((item) => {
